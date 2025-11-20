@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+
+    /* Gradient Background */
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.calculator {
+    width: 340px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 25px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(255,255,255,0.3);
+}
+
+#display {
+    width: 100%;
+    height: 65px;
+    font-size: 28px;
+    padding: 12px;
+    border: none;
+    text-align: right;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.3);
+    color: #fff;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    transition: 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.08);
+}
+
+.op {
+    background: linear-gradient(135deg, #ffb948, #ff7a00);
+}
+
+.equal {
+    background: linear-gradient(135deg, #00d4ff, #0093ff);
+}
+
+.zero {
+    grid-column: span 2;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+
+    /* Gradient Background */
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.calculator {
+    width: 340px;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 25px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(255,255,255,0.3);
+}
+
+#display {
+    width: 100%;
+    height: 65px;
+    font-size: 28px;
+    padding: 12px;
+    border: none;
+    text-align: right;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.3);
+    color: #fff;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    transition: 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.08);
+}
+
+.op {
+    background: linear-gradient(135deg, #ffb948, #ff7a00);
+}
+
+.equal {
+    background: linear-gradient(135deg, #00d4ff, #0093ff);
+}
+
+.zero {
+    grid-column: span 2;
+}
